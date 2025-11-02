@@ -4,6 +4,9 @@
     - trigger: homeassistant
       event: start
     - trigger: time_pattern
+      hours: "12"
+      minutes: "*"
+    - trigger: time_pattern
       hours: "13"
       minutes: "*"
   action:
